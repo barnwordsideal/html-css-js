@@ -9,10 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake Game</title>
     <style>
-      body {
-        margin: auto;
-        height: 100vh;
-      }
       body,
       #speed-option {
         display: flex;
@@ -28,7 +24,7 @@
 
       #score {
         text-align: center;
-        font-size: 80px;
+        font-size: 40px;
         font-family: "Antic Slab", serif;
       }
 
@@ -88,7 +84,7 @@
     </div>
     <div id="game" class="flex-col gap-3">
       <canvas id="gameCanvas" width="300" height="300"></canvas>
-      <div class="flex justify-center items-center space-x-4">
+      <div class="flex justify-center items-center space-x-4 mt-10">
         <button
           id="left"
           class="w-12 h-12 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none"
@@ -104,7 +100,7 @@
           </button>
           <button
             id="down"
-            class="w-12 h-12 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none mt-2"
+            class="w-12 h-12 mt-16 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none mt-2"
           >
             &darr;
           </button>
